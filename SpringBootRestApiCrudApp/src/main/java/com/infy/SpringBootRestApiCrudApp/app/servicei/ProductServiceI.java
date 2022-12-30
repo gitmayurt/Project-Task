@@ -8,8 +8,18 @@ public interface ProductServiceI {
 
 	public Iterable<Product> getProduct();
 
-	public Product getSingleProduct(Integer id);
-
 	public void deleteProduct(Integer id);
+
+	public void updateProduct(Integer id, Product p);
+
+	public Product getPro(int id);
+
+	public Product getProName(String name);
+
+	public void update(String name, int id);
+
+	public void updatePro(String name, Double price);
+	
+	
 
 }
